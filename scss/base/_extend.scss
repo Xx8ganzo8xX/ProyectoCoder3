@@ -1,0 +1,23 @@
+%flex_centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+%flex_derecha{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+%flex_izquierda{
+    display: flex;
+    justify-content: start;
+    align-items: starts;
+}
+
+%grid_general_3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
