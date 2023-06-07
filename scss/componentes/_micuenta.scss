@@ -1,0 +1,51 @@
+.mc_form{
+    display: block;
+    width: 100%;
+    padding: 0.4rem 0.78rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $color1;
+    background-clip: padding-box;
+    border: 0.15rem solid $color1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.3rem;
+    background-color: rgb(204, 204, 204)
+}
+
+.mc_form_seleccionar{
+    display: block;
+    width: 100%;
+    padding: 0.4rem 2rem 0.4rem 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    background-repeat: no-repeat;
+    background-position: right 0.8rem center;
+    background-size: 16px 12px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.mc_h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.mc_zip{
+    margin-top: 0;
+    padding-top: 8px;
+}
+
+.texto_mc{
+    text-align: center;
+    margin: 0 0 0 1rem;
+}
+
+.check_mc{
+    margin: 0;
+}

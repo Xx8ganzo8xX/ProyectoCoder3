@@ -1,0 +1,500 @@
+.index_h1, .flex_start, .flex_centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_section {
+  background-color: rgb(32, 32, 32);
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.header_h2_responsive {
+  color: rgb(255, 255, 255);
+}
+
+.header_btn {
+  border: none;
+  background-color: rgb(204, 204, 204);
+}
+
+header section div div div a {
+  font-size: 16px;
+}
+
+.q-s_map_movile {
+  border-radius: 1.3rem;
+  margin-bottom: 3rem;
+  height: 200%;
+  width: 100%;
+}
+
+.q-s_map_pc {
+  border-radius: 1.3rem;
+  margin-bottom: 3rem;
+  height: 200%;
+  width: 100%;
+}
+
+.q-s_h2 {
+  font-size: 2rem;
+}
+
+.q-s_img {
+  margin-bottom: 0rem;
+}
+
+.q-s_box {
+  margin-top: 3rem;
+  border-radius: 1.3rem;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.contacto_h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.contacto_form {
+  border-color: black;
+  background-color: rgb(204, 204, 204);
+}
+
+.contacto_form_2 {
+  display: block;
+  width: 98%;
+  padding: 0.5rem 0.8rem;
+  margin: 0.2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 1rem;
+  border-color: black;
+  background-color: rgb(204, 204, 204);
+}
+
+.contacto_btn {
+  margin-bottom: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.general_bg_white {
+  background-color: whitesmoke;
+  margin: 3rem 0 3rem 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(204, 204, 204);
+  overflow-x: hidden;
+}
+
+.logo_paginas h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.logo_paginas h1 span {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #444;
+  word-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.logo_paginas h1 span:after, .logo_paginas h1 span:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 5px;
+  background-color: rgb(32, 32, 32);
+}
+
+.general_btn {
+  background-color: rgb(35, 104, 161);
+  border: solid black;
+  color: white;
+}
+
+.general_btn:hover {
+  background-color: rgb(69, 36, 219);
+  color: white;
+  border: solid black;
+}
+
+@media (max-width: 768px) {
+  .pc {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .movile {
+    display: none;
+  }
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.general_border_none {
+  border-width: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.general_form {
+  display: block;
+  width: 98%;
+  padding: 0.5rem 0.8rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 1rem;
+  border-color: black;
+  background-color: rgb(204, 204, 204);
+}
+
+.color1 {
+  color: rgb(32, 32, 32);
+}
+
+.p0-m0 {
+  margin: 0;
+  padding: 0;
+}
+
+.bc_color1 {
+  background-color: rgb(32, 32, 32);
+}
+
+.bc_color2 {
+  background-color: whitesmoke;
+}
+
+.general_header_dropdown_movile {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.woo-100 {
+  width: auto;
+}
+
+footer {
+  bottom: 0;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.rowf {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.row.primary {
+  display: grid;
+  grid-template-columns: 3fr 2fr 4fr;
+  align-items: stretch;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+
+.footer_h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+
+.footer_ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+li:not(:first-child) {
+  margin-top: 1rem;
+}
+
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #c7940a;
+}
+
+.about {
+  padding-top: 1rem;
+  background-color: rgb(32, 32, 32);
+}
+
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+
+input,
+div .social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  flex-direction: row;
+}
+
+.social i {
+  color: #bac6d9;
+}
+
+.footer_copyright {
+  padding: 0.3em 1em;
+  background-color: rgb(32, 32, 32);
+  font-size: 1rem;
+  text-align: right;
+}
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+.footer_media_logos {
+  width: 4%;
+  margin-right: 0.4rem;
+}
+
+.index_header_logo h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.index_header_logo h1 span {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #444;
+  word-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.index_header_logo h1 span:after, .index_header_logo h1 span:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 5px;
+  background-color: #f8f8f8;
+}
+
+.index_nb_padding {
+  padding: 2rem 0 2rem 0;
+}
+
+.index_img_card {
+  width: 15%;
+  padding: 1rem;
+}
+
+.index_h1 {
+  margin-top: 3rem;
+  text-decoration: underline;
+}
+
+.index_carrousel_img {
+  height: 6rem;
+}
+
+.index_card {
+  margin: 1rem 0 2rem 0;
+  border: rgb(32, 32, 32) 0.2rem solid;
+  padding: 0;
+}
+
+.index_card_movile {
+  margin-bottom: 1rem;
+}
+
+.index_card_transformar:hover {
+  transform: scale(1.02);
+}
+
+.index_container {
+  margin-inline: 0rem;
+}
+
+.trans_card {
+  transition: all 0.5s;
+}
+
+.grande {
+  width: 100%;
+}
+
+.mc_form {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0.78rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(32, 32, 32);
+  background-clip: padding-box;
+  border: 0.15rem solid rgb(32, 32, 32);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.3rem;
+  background-color: rgb(204, 204, 204);
+}
+
+.mc_form_seleccionar {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 2rem 0.4rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 16px 12px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.mc_h1 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.mc_zip {
+  margin-top: 0;
+  padding-top: 8px;
+}
+
+.texto_mc {
+  text-align: center;
+  margin: 0 0 0 1rem;
+}
+
+.check_mc {
+  margin: 0;
+}
+
+.casa1_car {
+  margin-top: 1rem;
+  padding: 0;
+  border: black solid 0.3rem;
+  border-radius: 1rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.casa1_box_1 {
+  border: black solid 0.3rem;
+  border-radius: 1rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.casa1_box_1_title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.casa1_box_2 {
+  border: black solid 0.3rem;
+  border-radius: 1rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.casa1_box_2_header {
+  border-bottom: black 0.3rem solid;
+}
+
+.casa1_container {
+  margin-bottom: 1rem;
+}
+
+.casa1_descripcion {
+  height: 100%;
+}
+
+.casa1_descripcion_img {
+  height: 100%;
+  margin-top: 1rem;
+}
+
+.casa1_h1 {
+  border: rgb(204, 204, 204) solid 0.2rem;
+  border-radius: 0 0rem 1rem 1rem;
+  border-top: none;
+  background-color: rgb(204, 204, 204);
+}
+
+/*# sourceMappingURL=style.css.map */

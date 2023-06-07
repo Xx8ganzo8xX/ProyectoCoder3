@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    // overflow-x: hidden;
+}
+
+.general_bg_white{
+    background-color: whitesmoke;
+    margin: 3rem 0 3rem 0;  
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: $color3;
+    overflow-x: hidden;
+}
+
+.logo_paginas h1 {
+    text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+  }
+  .logo_paginas h1 span {
+    margin-top: 5px;
+      font-size:15px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .logo_paginas h1 span:after,.logo_paginas h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      height: 5px;
+    background-color:rgba(32, 32, 32);
+  }
+
+.general_btn{
+    background-color: rgb(35, 104, 161);
+    border: solid black;
+    color: white;
+  }
+
+.general_btn:hover{
+    background-color: rgb(69, 36, 219);
+    color: white;
+    border: solid black;
+  }
+
+@media (max-width:768px){
+    .pc{
+        display: none;
+    }
+}
+@media (min-width:768px) {
+    .movile{
+        display: none; 
+    }
+}
+
+a{
+    color: map-get($deco-colo, blanco);
+    text-decoration: map-get($deco-colo, deconon);
+}
+
+.general_border_none{
+    border-width: 0;;
+}
+
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.general_form{
+    display: block;
+    width: 98%;
+    padding: 0.5rem 0.8rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1rem;
+    border-color: black;
+    background-color: rgb(204, 204, 204);
+}
+
+.flex_centrado{
+    @extend %flex_centrado;
+}
+
+.flex_start{
+    @extend %flex_centrado;
+}
+
+.color1{
+    color: rgba(32, 32, 32);
+}
+
+.p0-m0{
+    margin: 0;
+    padding: 0;
+}
+
+.bc_color1{
+    background-color: $color1;
+}
+
+.bc_color2{
+    background-color: $color2;
+}
+
+.general_header_dropdown_movile{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.woo-100{
+    width: auto;
+}
